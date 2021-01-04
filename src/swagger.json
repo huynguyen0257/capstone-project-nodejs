@@ -1,0 +1,31 @@
+{
+  "x-generator": "NSwag v11.20.1.0 (NJsonSchema v9.11.0.0 (Newtonsoft.Json v11.0.0.0))",
+  "swagger": "2.0",
+  "info": {
+      "title": "BE API",
+      "version": "1.0.0"
+  },
+  "host": "node-be.azurewebsites.net/",
+  "schemes": [
+      "http",
+      "https"
+  ],
+  "consumes": [
+      "application/json",
+      "application/json-patch+json",
+      "text/json",
+      "application/*+json"
+
+  ],
+  "paths": {},
+  "definitions": {},
+  "securityDefinitions": {
+      "JWT": {
+          "type": "apiKey",
+          "description": "Copy valid JWT token into field",
+          "name": "Authorization",
+          "in": "header"
+      }
+  }
+
+}

@@ -1,0 +1,13 @@
+export const READY = 'READY';
+export const RUNNING = 'RUNNING';
+export const TRACKING_WEIRD_HOUR = 'TRACKING_WEIRD_HOUR'
+export const FRAME_KEY = "FRAME_KEY";
+export const FACE_DATA_KEY = "FACE_DATA_KEY";
+export const BODY_DATA_KEY = "BODY_DATA_KEY";
+export const ITEM_DATA_KEY = "OBJ_DATA_KEY";
+export const WEIRD_HOURS_CONFIG = "WEIRD_HOURS_CONFIG";
+export const INFO_CAMERA_LIST = "INFO_CAMERA_LIST";
+export const INFO_BUILDING_LIST = "INFO_BUILDING_LIST";
+export const FACE_REGISTER_ENHANCER = "FACE_REGISTER_ENHANCER"; 
+export const FRAME_TIME_KEY = "FRAME_TIME_KEY"; 
+export const NO_MASK_KEY =  'NO_MASK_KEY';
